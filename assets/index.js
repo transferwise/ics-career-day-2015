@@ -11,10 +11,9 @@ function toggleForm() {
   } else {
     $('form').show();
   }
-    
 }
 
-$(window).bind('hashchange', function (e) {
+$(window).bind('hashchange', function () {
   toggleForm();
 });
 
