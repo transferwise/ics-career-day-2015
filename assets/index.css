@@ -28,6 +28,7 @@
 }
 
 body {
+  background-color: #f5f7f9;
   font-family: "AvenirNextLight";
 }
 
@@ -35,6 +36,26 @@ form {
   text-align: center;
 }
 
-input, textarea {
+.ss-q-short, .ss-q-long {
   width: 100%;
+}
+
+#ss-submit {
+  color: #fff;
+  font-family: "AvenirNextLight";
+  font-weight: 600;
+  background-color: #46d633;
+  text-transform: uppercase;
+  border: 0;
+  border-bottom: 1px solid #32aa22;
+  min-width: 192px;
+  padding: 18px 36px 16px;
+}
+
+#ss-submit:hover {
+  background-color: #55d944;
+}
+
+#ss-submit:active {
+  background-color: #32aa22;
 }
