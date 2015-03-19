@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "SharpSans";
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/SharpSans/SharpSansFrontieres-Light.eot");
+  src: url("fonts/SharpSans/SharpSansFrontieres-Light.eot?#iefix") format("embedded-opentype"),
+       url("fonts/SharpSans/SharpSansFrontieres-Light.woff") format("woff"),
+       url("fonts/SharpSans/SharpSansFrontieres-Light.ttf") format("truetype"),
+       url("fonts/SharpSans/SharpSansFrontieres-Light.svg#SharpSans") format("svg");
+}
+
+@font-face {
+  font-family: "AvenirNext";
+  src: url("fonts/AvenirNext/AvenirNext.eot");
+  src: url("fonts/AvenirNext/AvenirNext.eot?#iefix") format("embedded-opentype"),
+       url("fonts/AvenirNext/AvenirNext.woff") format("woff"),
+       url("fonts/AvenirNext/AvenirNext.ttf") format("truetype"),
+       url("fonts/AvenirNext/AvenirNext.svg#SharpSans") format("svg");
+}
+
+@font-face {
+  font-family: "AvenirNextLight";
+  src: url("fonts/AvenirNext/AvenirNextLight.eot");
+  src: url("fonts/AvenirNext/AvenirNextLight.eot?#iefix") format("embedded-opentype"),
+       url("fonts/AvenirNext/AvenirNextLight.woff") format("woff"),
+       url("fonts/AvenirNext/AvenirNextLight.ttf") format("truetype"),
+       url("fonts/AvenirNext/AvenirNextLight.svg#SharpSans") format("svg");
+}
+
+body {
+  font-family: "AvenirNextLight";
+}
+
+form {
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+}
