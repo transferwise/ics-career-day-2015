@@ -2,6 +2,17 @@
   font-family: "SharpSans";
   font-weight: normal;
   font-style: normal;
+  src: url("fonts/SharpSans/SharpSansFrontieres-Medium.eot");
+  src: url("fonts/SharpSans/SharpSansFrontieres-Medium.eot?#iefix") format("embedded-opentype"),
+       url("fonts/SharpSans/SharpSansFrontieres-Medium.woff") format("woff"),
+       url("fonts/SharpSans/SharpSansFrontieres-Medium.ttf") format("truetype"),
+       url("fonts/SharpSans/SharpSansFrontieres-Medium.svg#SharpSans") format("svg");
+}
+
+@font-face {
+  font-family: "SharpSansLight";
+  font-weight: normal;
+  font-style: normal;
   src: url("fonts/SharpSans/SharpSansFrontieres-Light.eot");
   src: url("fonts/SharpSans/SharpSansFrontieres-Light.eot?#iefix") format("embedded-opentype"),
        url("fonts/SharpSans/SharpSansFrontieres-Light.woff") format("woff"),
