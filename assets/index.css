@@ -32,8 +32,8 @@ body {
   font-family: "AvenirNextLight";
 }
 
-header, form {
- 
+form {
+  display: none; 
 }
 
 header {
