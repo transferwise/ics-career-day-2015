@@ -42,7 +42,6 @@ header {
 }
 
 label {
-  margin-bottom: 15px;
   font-size: 16px;
   text-align: left;
 }
@@ -54,7 +53,7 @@ label {
 }
 
 h1, h2, h3 {
-  font-family: "SharpSans";
+  font-family: "SharpSans", "Helvetica Neue", "Helvetica", "Arial";
 }
 
 h1, h2, h3 {
@@ -102,7 +101,7 @@ textarea {
 
 #ss-submit {
   color: #fff;
-  font-family: "AvenirNextLight";
+  font-family: "AvenirNextLight", "Helvetica Neue", "Helvetica", "Arial";
   font-weight: 600;
   background-color: #46d633;
   text-transform: uppercase;
@@ -134,8 +133,14 @@ textarea {
 .ics-title {
   text-transform: uppercase;
   color: #354464;
+  text-align: center;
 }
 
 .ss-q-item-label {
   color: #354464;
+}
+
+.code {
+  font-family: 'Source Code Pro', 'Courier New';
+  font-weight: 400;
 }
