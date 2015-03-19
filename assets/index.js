@@ -2,7 +2,6 @@ var submitted = false;
 
 function submitForm() {
   submitted = true;
-  toggleForm();
 }
 
 function toggleForm() {
@@ -11,6 +10,10 @@ function toggleForm() {
   else
     $('form').show();
 }
+
+$(window).bind('hashchange', function (e) {
+  toggleForm();
+});
 
 $(function() {
   toggleForm();
