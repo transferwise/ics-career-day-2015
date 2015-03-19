@@ -52,9 +52,19 @@ header {
   margin-bottom: 48px;
 }
 
-label {
+label, .feedback-text {
   font-size: 16px;
   text-align: left;
+  color: #354464;
+}
+
+.feedback {
+  color: #46d633 !important;
+  margin-bottom: 24px;
+}
+
+.feedback-text {
+  text-align: center;
 }
 
 .help {
@@ -142,6 +152,7 @@ textarea {
 }
 
 .ics-title {
+  font-family: "SharpSans", "Helvetica Neue", "Helvetica", "Arial";
   text-transform: uppercase;
   color: #354464;
   text-align: center;

@@ -1,5 +1,7 @@
 var submitted = false;
 
+console.log("What are you doing here? Get back to your tasks!");
+
 function submitForm() {
   submitted = true;
 }
@@ -7,9 +9,10 @@ function submitForm() {
 function toggleForm() {
   if (window.location.hash == '#thank-you') {
     $('form').hide();
-    $('#wrapper').append('<h4 class="feedback">Thank you!</h4>');
+    $('.good-job-wrapper').show();
   } else {
     $('form').show();
+    $('.good-job-wrapper').hide();
   }
 }
 
