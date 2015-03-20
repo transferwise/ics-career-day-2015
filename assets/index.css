@@ -166,3 +166,14 @@ textarea {
   font-family: 'Source Code Pro', 'Courier New';
   font-weight: 400;
 }
+
+.notify {
+  margin-bottom: 40px;
+  color: #f7462b;
+  text-align: center;
+  font-size: 14px;
+}
+
+.notify h4 {
+  margin-bottom: 20px;
+}
